@@ -1,0 +1,4 @@
+#program to store yes for perfact square keys and no for other from 1 to 1000,ex:{1:yes,2:no,3:no,4:yes}
+n=int(input())
+d={i:i**2 for i in range(1,n+1)}
+print(d)
